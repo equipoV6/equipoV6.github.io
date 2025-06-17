@@ -1,0 +1,52 @@
+.detalle-propiedad {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .detalle-propiedad h2, .detalle-propiedad h3 {
+    color: #2c3e50;
+    margin-top: 20px;
+  }
+  
+  .detalle-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .detalle-propiedad ul {
+    margin-left: 20px;
+  }
+    .boton {
+  border: none; 
+  color: white; 
+  padding: 29px 40px; 
+  cursor: pointer; 
+  display: inline-block;
+  margin: 0px;
+ position: absolute;
+ top: 160%;
+ right: 29%;
+}
+
+.boton{background-image: linear-gradient(to right, #1a374d, #4ab2e2);} 
+.boton:hover {background-image: linear-gradient(to right, #0b7dda, #4ab2e2);}
+
+  footer {
+    background-color: #1a374d;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+    left: 0px;
+
+  }
+  .header-container{
+    text-align: center;
+  }

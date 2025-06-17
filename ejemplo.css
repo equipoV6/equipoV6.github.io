@@ -1,0 +1,206 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+   header {
+    background-color: #000000;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    height: 336.5px;
+  }
+  
+  .header-container h1 {
+    font-size: 2.5em;
+  }
+  
+  .logo{
+    background-image: url(logoinicio4.jpg);
+    width: 850px;
+    height:  375px ;
+    margin-top: -5%;
+    position: absolute;
+     right: 25%;
+   
+  }
+  
+   nav {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f39c12;
+  }
+
+.icono1{
+position: absolute;
+left: 0%;
+top: 0%;
+}
+.icono2{
+position: absolute;
+right:92%;
+top: 0%;
+}
+.icono3{
+position: absolute;
+right:87.8%;
+top: 0%;
+}
+.icono4{
+position: absolute;
+right:84%;
+top: 0%;
+}
+
+  .contenedor {
+    padding: 30px 20px;
+  }
+  
+  .Destacadas {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .Destacadas img {
+    width: 100%;
+    max-height: 1000px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+   
+  }
+  .t1{
+    text-align: center;
+  }
+
+  .mmm{display: flex;
+    justify-content: space-between;
+
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  footer {
+    background-color: #1a374d;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+  }
+
+  .whatsapp-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #1ebe57;
+  }
+  
+  @media (max-width:400px)
+  {
+
+
+    .mmm{ display: flex;
+      flex-direction: column;
+    }
+
+    .logo{
+     background-image: url(logocelular.png);
+     width: 400px;
+     height: 300px;
+     position: absolute;
+     top: 0%;
+     left: 0%;
+    }
+   header {
+    background-color: #1a374d;
+    color: white;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    height: 280px;
+  }
+
+ nav {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: start;
+    font-size: .6rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f39c12;
+  }
+
+  .icono1{
+position: absolute;
+left: 0%;
+top: 0%;
+
+}
+.icono2{
+position: absolute;
+right:75%;
+top: 0%;
+}
+.icono3{
+position: absolute;
+right:62%;
+top: 0%;
+}
+.icono4{
+position: absolute;
+right:50%;
+top: 0%;
+}
+
+  
+
+  }

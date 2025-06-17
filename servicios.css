@@ -1,0 +1,104 @@
+
+ /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+ header {
+    background-color: #1a374d;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  .header-container h1 {
+    font-size: 2.5em;
+  }
+  
+
+  nav {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f39c12;
+  }
+  .icono1{
+position: absolute;
+left: 0%;
+top: 0%;
+}
+.icono2{
+position: absolute;
+right:94%;
+top: 0%;
+}
+.icono3{
+position: absolute;
+right:90.6%;
+top: 0%;
+}
+.icono4{
+position: absolute;
+right:87%;
+top: 0%;
+}
+
+.icono5{
+position: absolute;
+right:84%;
+top: 0%;
+}
+
+.icono6{
+position: absolute;
+right:81%;
+top: 0%;
+}
+
+
+
+.boton {
+  
+  border: none; 
+  color: white; 
+  padding: 29px 40px; 
+  cursor: pointer; 
+  display: inline-block;
+  margin: 0px;
+  position: absolute;
+  bottom: -25.5%;
+
+}
+
+.boton{background-image: linear-gradient(to right, #1a374d, #4ab2e2);} 
+.boton:hover {background-image: linear-gradient(to right, #0b7dda, #4ab2e2);}
+
+
+   footer {
+    background-color: #1a374d;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 48%;
+  }

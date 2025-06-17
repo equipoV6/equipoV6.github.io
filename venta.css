@@ -1,0 +1,249 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: #000000;
+  color: white;
+  height: 336.5px;
+  display: flex;
+  align-items: center;
+  padding-left: 220px; 
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+   background-image: url(logoinicio4.jpg);
+    width: 850px;
+    height:  375px ;
+    margin-top: -5%;
+    position: absolute;
+     left: 15%;
+}
+
+
+
+.header-container h1 {
+  font-size: 2.5em;
+  margin-left: 20px;
+}
+
+nav {
+  background-color: #34495e;
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+.icono1{
+position: absolute;
+left: 0%;
+top: 0%;
+}
+.icono2{
+position: absolute;
+right:92%;
+top: 0%;
+}
+.icono3{
+position: absolute;
+right:87.8%;
+top: 0%;
+}
+.icono4{
+position: absolute;
+right:84%;
+top: 0%;
+}
+
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  flex: 1;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.card img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+  display: block;
+}
+
+.card h2 {
+  padding: 16px 20px 0;
+  font-size: 1.6em;
+  color: #2c3e50;
+}
+
+.card p {
+  padding: 12px 20px;
+  font-size: 1em;
+  line-height: 1.4;
+  color: #555;
+}
+
+.venta {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.renta {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+
+.boton {
+  
+  border: none; 
+  color: white; 
+  padding: 29px 40px; 
+  cursor: pointer; 
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  bottom: 0px;
+
+}
+
+
+.boton{background-image: linear-gradient(to right, #1a374d, #4ab2e2)} 
+.boton:hover {background-image: linear-gradient(to right, #0b7dda, #4ab2e2);}
+
+
+footer {
+  background-color: #1a374d;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0%;
+}
+
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  
+  }
+
+   header {
+    background-color: #1a374d;
+    color: white;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    height: 280px;
+  }
+
+ nav {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: start;
+    font-size: .6rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f39c12;
+  }
+
+  .icono1{
+position: absolute;
+left: 0%;
+top: 0%;
+
+}
+.icono2{
+position: absolute;
+right:75%;
+top: 0%;
+}
+.icono3{
+position: absolute;
+right:62%;
+top: 0%;
+}
+.icono4{
+position: absolute;
+right:50%;
+top: 0%;
+}
+
+
+  .boton {
+    width: 40%;
+    margin-left: 240px;
+  }
+   .logo{
+     background-image: url(logocelular.png);
+     width: 400px;
+     height: 300px;
+     position: absolute;
+     top: 0%;
+     left: 0%;
+    }
+  }
